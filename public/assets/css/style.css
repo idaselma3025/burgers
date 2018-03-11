@@ -1,0 +1,34 @@
+body{
+  background:#FFFACD;
+}
+.eaten>li{
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  background: grey;
+}
+.noteaten>li{
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  background:white;
+}
+
+}
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.container{
+  text-align: center;
+}
