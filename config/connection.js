@@ -3,10 +3,10 @@ var mysql = require("mysql");
 
 var connection = mysql.createConnection({
   port: 3306,
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "burgers_db"
+  host: "us-cdbr-iron-east-05.cleardb.net",
+  user: "beee20b8a00738",
+  password: "955e6edc",
+  database: "heroku_cc8a4c6391e9dbf"
 });
 
 // Make connection.
@@ -20,3 +20,5 @@ connection.connect(function(err) {
 
 // Export connection for our ORM to use.
 module.exports = connection;
+
+mysql://beee20b8a00738:955e6edc@us-cdbr-iron-east-05.cleardb.net/heroku_cc8a4c6391e9dbf?reconnect=true
