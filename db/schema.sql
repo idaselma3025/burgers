@@ -1,7 +1,3 @@
-### Schema
-
-CREATE DATABASE heroku_cc8a4c6391e9dbfb;
-USE heroku_cc8a4c6391e9dbf;
 
 CREATE TABLE burgers
 (
